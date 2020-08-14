@@ -1,0 +1,36 @@
+{
+  "name": "@dashkite/neon-breeze",
+  "version": "0.1.0",
+  "description": "Web Component that combines the Breeze authentication API and Neon routing API",
+  "main": "build/src/index.js",
+  "main:coffee": "src/index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dashkite/neon-breeze.git"
+  },
+  "keywords": [],
+  "contributors": [
+    "Dan Yoder",
+    "David Harper"
+  ],
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/dashkite/neon-breeze/issues"
+  },
+  "homepage": "https://github.com/dashkite/neon-breeze#readme",
+  "dependencies": {
+    "@dashkite/breeze-client": "^0.3.0",
+    "@dashkite/carbon": "^3.3.1",
+    "@dashkite/helium": "^0.3.0",
+    "@dashkite/katana": "^0.3.1",
+    "@dashkite/mercury": "0.0.20",
+    "@dashkite/mercury-sky": "0.0.4",
+    "@dashkite/mercury-zinc": "^0.1.0",
+    "@dashkite/quark": "^0.3.2",
+    "@dashkite/zinc": "^0.1.0",
+    "@pandastrike/garden": "^8.0.0-alpha.1"
+  }
+}
