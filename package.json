@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/dashkite/neon-breeze#readme",
   "dependencies": {
-    "@dashkite/breeze-client": "0.6.0",
+    "@dashkite/breeze-client": "0.7.0",
     "@dashkite/carbon": "^3.3.1",
     "@dashkite/helium": "^0.3.0",
     "@dashkite/katana": "^0.3.1",
