@@ -1,6 +1,6 @@
 {
   "name": "@dashkite/neon-breeze",
-  "version": "0.7.0",
+  "version": "1.0.0",
   "description": "Web Component that combines the Breeze authentication API and Neon routing API",
   "main": "build/src/index.js",
   "main:coffee": "src/index.coffee",
