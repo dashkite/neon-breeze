@@ -182,7 +182,10 @@ class extends c.Handle
   c.mixin @, [
     c.tag "neon-breeze"
     c.diff
-    c.initialize [ c.shadow, c.sheet css ]
+    c.initialize [
+      c.shadow
+      c.sheet "main", css 
+    ]
     c.connect [
       c.ready [
         c.render html
