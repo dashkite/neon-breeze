@@ -146,7 +146,7 @@ register = flow [
           [
             isDefined,
             flow [
-              b.delete
+              b.profile.delete
               reportFailure "You already have a profile connected to this login."
           ] ]
           [
