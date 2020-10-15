@@ -145,8 +145,10 @@ register = flow [
         k.branch [
           [
             isDefined,
-            reportFailure "You already have a profile connected to this login."
-          ]
+            flow [
+              b.delete
+              reportFailure "You already have a profile connected to this login."
+          ] ]
           [
             isUndefined,
             flow [
@@ -184,7 +186,7 @@ class extends c.Handle
     c.diff
     c.initialize [
       c.shadow
-      c.sheet "main", css 
+      c.sheet "main", css
     ]
     c.connect [
       c.ready [
